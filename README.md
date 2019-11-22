@@ -4,9 +4,9 @@ bus routes, stops, departure details base on metro transit api
 One REST API is exposed to get time until next bus departs from provided bus stop, in a direction on a bus route.
 Access as: "http://localhost:18080/v1/nexttrip/METRO Blue Line/North/Target Field Station Platform 2"
 here 
-    'METRO Blue Line' is Bus Route
+   `'METRO Blue Line' is Bus Route
     'North' is direction
-    'Target Field Station Platform 2' is bus stop
+    'Target Field Station Platform 2' is bus stop`
 
 # Build
 mvn clean install
